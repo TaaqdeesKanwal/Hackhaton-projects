@@ -1,0 +1,75 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 50px;;
+}
+.resume-container{
+    display: flex;
+    background-color:peru;
+    width: 80%;
+    margin:0 auto ;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1)
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 7px solid grey;
+    margin-bottom: 20px;
+}
+.left-section{
+    font-style: italic;
+    background-color:peru;
+    color: black;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-right: 5px solid dimgray;
+}
+h1{
+    font-size: 25px;
+    margin: 15px;
+    margin-bottom:20px;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+    box-shadow:0 0 10px black;
+}
+h3{
+    font-size: 20px;
+    padding:2%;
+    color: black;
+    margin: 2px 0 10px;
+    border-radius:10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul{
+    list-style-type:fill round;
+    padding: 10;
+    margin: 10px;
+}
+ul li{
+    margin: 5px;
+}
+.right-section{
+    padding: 15px;
+    width: 65%;
+    background-color:burlywood;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 20px;
+    background-color: burlywood;
+}
+button:hover{
+    background-color: lightblue;
+}
